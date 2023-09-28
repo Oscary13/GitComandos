@@ -1,0 +1,79 @@
+Aun no esta en linea el repositorio.
+--------------------------------------------------------------------
+git init -> La primera vez que inicias un respositorio.
+
+git status -s -> Muestra los archivos que estan y no estan modificados
+
+git add NombreArchivo -> solo agrega un archivo especifica.
+git add . -> agrega todos los archivos.
+
+git commit -m "Mensaje" -> hace un comit y guarda los cambios.
+
+---------------------------------------------------------------------------
+
+
+
+
+Para retroceder y abanzar entre comits
+---------------------------------------------------------------------------
+git log --oneline -> Muestra todos los comits realizados. "clave y mensale" y en que rama estas.
+
+git reset hard clave -> (Nos ayuda a regresar y avanzar entre comits)
+
+--------------------------------------------------------------------------
+
+
+
+
+Para crear el repositorio en la nube.
+---------------------------------------------------------------------------
+1) Creas el repsositorio en GitHub.
+
+git remote add origin (URL proyecto en GitHub) -> le avisas que trabajaras remotamenete.
+
+git push -u origin master
+-----------------------------------------------------------------------------
+
+
+
+Pull.
+-----------------------------------------------------------------------------
+
+git pull -> Sirve para obtener los datos del reposistorio remoto al local.
+
+----------------------------------------------------------------------------
+
+
+Tags.
+---------------------------------------------------------------------------
+
+git tag version1.0 -m "Version 1" -> crea un tag en commits es decir una version del proyecto en tags
+
+git push --tags -> para subir los cambios al tag 
+
+---------------------------------------------------------------------------
+
+
+Branch.
+--------------------------------------------------------------------------------------------------------
+
+git branch nombreRama -> Crea una rama 
+
+git checkout nombreRama -> Nos movemos a la rama 
+
+git branch -> Muestra en que rama estamos y que ramas tenemos.
+--------------------------------------------------------------------------------------------------------
+
+
+Merge.
+------------------------------------------------------------------------------------------------
+Te mueves a la rama master.
+
+git marge nombreRama -> une todos los comits con la rama que especificaste.
+
+git branch -d nombreRama -> Elimina la rama que ya no utilizas.
+
+
+
+
+
