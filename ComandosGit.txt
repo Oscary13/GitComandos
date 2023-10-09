@@ -20,19 +20,19 @@ git log --oneline -> Muestra todos los comits realizados. "clave y mensale" y en
 
 git reset hard clave -> (Nos ayuda a regresar y avanzar entre comits)
 
---------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 
 
 
 Para crear el repositorio en la nube.
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 1) Creas el repsositorio en GitHub.
 
 git remote add origin (URL proyecto en GitHub) -> le avisas que trabajaras remotamenete.
 
 git push -u origin master
------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 
 
