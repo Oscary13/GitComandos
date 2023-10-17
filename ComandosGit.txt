@@ -18,7 +18,7 @@ Para retroceder y abanzar entre comits
 ---------------------------------------------------------------------------
 git log --oneline -> Muestra todos los comits realizados. "clave y mensale" y en que rama estas.
 
-git reset hard clave -> (Nos ayuda a regresar y avanzar entre comits)
+git reset --hard clave -> (Nos ayuda a regresar y avanzar entre comits)
 
 -------------------------------------------------------------------------
 
