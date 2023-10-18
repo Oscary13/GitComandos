@@ -40,7 +40,7 @@ Pull.
 -----------------------------------------------------------------------------
 
 git pull -> Sirve para obtener los datos del reposistorio remoto al local.
-
+https://github.com/Oscary13/GitComandos/blob/master/ComandosGit.txt
 ----------------------------------------------------------------------------
 
 
@@ -69,7 +69,7 @@ Merge.
 ------------------------------------------------------------------------------------------------
 Te mueves a la rama master.
 
-git marge nombreRama -> une todos los comits con la rama que especificaste.
+git merge nombreRama -> une todos los comits con la rama que especificaste.
 
 git branch -d nombreRama -> Elimina la rama que ya no utilizas.
 
