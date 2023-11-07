@@ -39,7 +39,7 @@ git push -u origin master
 Pull.
 -----------------------------------------------------------------------------
 
-git pull -> Sirve para obtener los datos del reposistorio remoto al local.
+git pull origin "nombre de la rama"-> Sirve para obtener los datos del reposistorio remoto al local.
 https://github.com/Oscary13/GitComandos/blob/master/ComandosGit.txt
 ----------------------------------------------------------------------------
 
